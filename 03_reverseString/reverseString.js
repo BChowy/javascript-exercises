@@ -1,4 +1,12 @@
-const reverseString = function() {
+const reverseString = function(string) {
+let list = string.slice();
+let result = '';
+for (let i = list.length-1 ; i >=0 ; i--){
+result += list[i];
+}
+
+return result;
+
 
 };
 
