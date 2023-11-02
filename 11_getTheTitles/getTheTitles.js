@@ -1,4 +1,10 @@
-const getTheTitles = function() {
+const getTheTitles = function(list) {
+    let books = [];
+list.forEach(element => {
+    books.push(element.title);
+});
+
+return books;
 
 };
 
